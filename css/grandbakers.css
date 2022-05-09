@@ -1,0 +1,23 @@
+.mleft20{
+    margin-left: 20px !important;
+}
+.navbar{
+    background-color:#C1055D !important;
+}
+#menu{
+background-image: url(../images/BG/bg_01.jpg); 
+} 
+.imgcup{
+    margin-left:-40%;
+    opacity: 50%;
+}
+.absolute-pos{
+    position: relative  !important;
+}
+.menuholder{
+   text-align: center;
+   padding-top:10%;
+}  
+.box-shadow{ 
+    box-shadow: 5px 10px #888888;
+}
