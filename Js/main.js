@@ -13,8 +13,7 @@
 	// Setup variables
 	$window = $(window);
 	$slide = $('.homeSlideone');
-	$homeslide = $('.homeSlide');
-	$homeSlideIcon=$('.homeSlideIcon');
+	$homeslide = $('.homeSlide'); 
 	$beverageshomeSlide = $('.beverageshomeSlide');
 	$snackshomeSlide = $('.snackshomeSlide');
 	$snacksmenuhomeSlide = $('.snacksmenuhomeSlide');
@@ -48,9 +47,8 @@
 			winH = 550;
 		}   
 	    // Resize our slides
-		$slide.height(498);
-		$homeslide.height(600);
-		$homeSlideIcon.height(95);
+		$slide.height(600);
+		$homeslide.height(600); 
 		$beverageshomeSlide.height(617);
 		$snackshomeSlide.height(530);
 		$snacksmenuhomeSlide.height(690);
