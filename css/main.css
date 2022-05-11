@@ -189,7 +189,7 @@ main {
     .icontable table{
         width: 100%;
     } 
-    .icontable table  tr{
+    .icontable table>tr{
         color:#d7adc1;
         font-weight: bold;
     }
