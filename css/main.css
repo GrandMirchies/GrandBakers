@@ -5,6 +5,10 @@ select,
 textarea {
     color: #222;
 }
+html {
+    scroll-behavior: smooth;
+  }
+  
 
 body {
     font-size: 1em;
@@ -151,6 +155,44 @@ main {
         padding-right: 0;
         background-color: rgba(0,0,0,0.6);
     } 
+    #slide-6 .bcg {background-image:url('../images/BG/bg_06.jpg')} 
+	#slide-6 h2 { 
+		padding-left: 0;
+        padding-right: 0;
+        background-color: rgba(0,0,0,0.6);
+    }
+    .menucontainer{
+        background-color: rgba(0,0,0,0.66);
+        padding:30px 2px 30px 2px; 
+        min-height: 300px   ; 
+    } 
+    .menucontainer table{
+        width: 100%;
+        padding-top:20px;
+        padding-bottom: 20px;
+    }
+    .menucontainer tr>td{
+        color: #fff;
+        padding: 10px 10px 0px 30px;
+        font-weight: 500;
+        font-size: large;
+        text-align: left;
+    }
+    .menucontainer tr{
+        width: 100%;
+    }
+    .icontable{
+        background-color: rgba(0,0,0,0.66); 
+        min-height: 95px; 
+        padding: 10px 10px 10px 0px;
+    }
+    .icontable table{
+        width: 100%;
+    } 
+    .icontable table  tr{
+        color:#d7adc1;
+        font-weight: bold;
+    }
 .ir {
     background-color: transparent;
     border: 0;

@@ -12,10 +12,14 @@
 	
 	// Setup variables
 	$window = $(window);
-	$slide = $('.homeSlide');
+	$slide = $('.homeSlideone');
+	$homeslide = $('.homeSlide');
+	$homeSlideIcon=$('.homeSlideIcon');
 	$beverageshomeSlide = $('.beverageshomeSlide');
 	$snackshomeSlide = $('.snackshomeSlide');
 	$snacksmenuhomeSlide = $('.snacksmenuhomeSlide');
+	$icecreammenuhomeSlide = $('.icecreammenuhomeSlide');
+	$icecreammenushomeSlide =$('.icecreammenushomeSlide');
 	$body = $('body');
 	
     //FadeIn all sections   
@@ -44,10 +48,14 @@
 			winH = 550;
 		}   
 	    // Resize our slides
-	    $slide.height(winH);
-		$beverageshomeSlide.height(430);
+		$slide.height(498);
+		$homeslide.height(600);
+		$homeSlideIcon.height(95);
+		$beverageshomeSlide.height(617);
 		$snackshomeSlide.height(530);
-		$snacksmenuhomeSlide.height(550);
+		$snacksmenuhomeSlide.height(690);
+		$icecreammenuhomeSlide.height(650);
+		$icecreammenushomeSlide.height(725);
 	    // Refresh Skrollr after resizing our sections 
 	    
 	}
