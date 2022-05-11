@@ -12,7 +12,7 @@ background-image: url(../images/BG/bg_01.jpg);
     opacity: 50%;
 }
 .absolute-pos{
-    position: relative  !important;
+    position: absolute  !important;
 }
 .menuholder{
    text-align: center;
@@ -21,3 +21,53 @@ background-image: url(../images/BG/bg_01.jpg);
 .box-shadow{ 
     box-shadow: 5px 10px #888888;
 }
+.overlay{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    background: rgba(59, 58, 58, 0.8) url(../images/loader/VAyR.gif) center no-repeat;
+} 
+/* Make spinner image visible when body element has the loading class */
+body.loading .overlay{
+    display: block;
+}
+.whitecup{
+    padding: 30px 10px 10px 30px;
+}
+.teacup{
+    float: left;
+    padding: 30px 10px 10px 30px;
+}
+#menu-section-1{
+    min-height: 800px;
+}
+#menu-section-2{
+    min-height: 800px;
+}
+.burger{ 
+    padding: 60px 10px 10px 30px;
+}
+#menu-section-3{
+    min-height: 800px;
+}
+.icecream{
+    float: left;
+    padding: 30px 10px 10px 30px;
+}
+#menu-section-4{
+    min-height: 800px;
+}
+#menu-section-5{
+    min-height: 800px;
+}
+.conetops{
+    float: left;
+    padding: 30px 10px 10px 30px;
+}
+.textcenter{
+    text-align: center;
+} 
