@@ -75,7 +75,7 @@ body.loading .overlay{
     padding: 30px 10px 10px 30px;
 }
 .menucontainer{
-    background-color: rgba(0,0,0,0.66);
+    background-color:rgb(0 0 0 / 80%);
     padding:30px 30px 30px 30px; 
     min-height: 300px; 
     color: #fff; 
@@ -105,7 +105,7 @@ body.loading .overlay{
     margin-top:10px;
 }
 .menuheader{
-    background-color: rgba(0,0,0,0.66);
+    background-color:rgb(0 0 0 / 80%);
     padding:30px 30px 30px 30px; 
     color: #fff; 
     width: 100%;
