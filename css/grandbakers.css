@@ -79,7 +79,9 @@ body.loading .overlay{
     padding:30px 30px 30px 30px; 
     min-height: 300px; 
     color: #fff; 
-    width: 100%;
+    width: 95%;
+    margin-left:25px;
+    margin-right:25px;
 } 
 .menucontainer table{
     width: 100%;
@@ -89,8 +91,8 @@ body.loading .overlay{
 .menucontainer tr>td{
     color: #fff;
     padding: 10px 10px 0px 30px;
-    font-weight: 500;
-    font-size: large;
+    font-weight: 500; 
+    font-size: x-large;
     text-align: left;
 }
 .menucontainer tr{
@@ -98,7 +100,7 @@ body.loading .overlay{
 }
 .mtop30
 {
-    margin-top:30px;
+    margin-top:40px;
 }
 .mtop10
 {
@@ -108,8 +110,10 @@ body.loading .overlay{
     background-color:rgb(0 0 0 / 80%);
     padding:30px 30px 30px 30px; 
     color: #fff; 
-    width: 100%;
-    text-align: center;
+    width: 95%;
+    text-align: center; 
+    margin-left:25px;
+    margin-right:25px;
 }
 footer{
     color:#fff;
