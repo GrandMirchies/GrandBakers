@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
 .mleft20{
     margin-left: 20px !important;
 }
@@ -5,7 +9,8 @@
     background-color:#C1055D !important;
 }
 #menu{
-background-image: url(../images/BG/bg_01.jpg); 
+background-image: url(../images/BG/bg_01.jpg);  
+margin-bottom:50px;
 } 
 .imgcup{
     margin-left:-40%;
@@ -48,8 +53,9 @@ body.loading .overlay{
 #menu-section-2{
     min-height: 800px;
 }
-.burger{ 
-    padding: 60px 10px 10px 30px;
+.burger{
+    float: left;
+    padding: 30px 10px 10px 30px;
 }
 #menu-section-3{
     min-height: 800px;
@@ -68,6 +74,53 @@ body.loading .overlay{
     float: left;
     padding: 30px 10px 10px 30px;
 }
-.textcenter{
-    text-align: center;
+.menucontainer{
+    background-color: rgba(0,0,0,0.66);
+    padding:30px 30px 30px 30px; 
+    min-height: 300px; 
+    color: #fff; 
+    width: 100%;
 } 
+.menucontainer table{
+    width: 100%;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.menucontainer tr>td{
+    color: #fff;
+    padding: 10px 10px 0px 30px;
+    font-weight: 500;
+    font-size: large;
+    text-align: left;
+}
+.menucontainer tr{
+    width: 100%;
+}
+.mtop30
+{
+    margin-top:30px;
+}
+.mtop10
+{
+    margin-top:10px;
+}
+.menuheader{
+    background-color: rgba(0,0,0,0.66);
+    padding:30px 30px 30px 30px; 
+    color: #fff; 
+    width: 100%;
+    text-align: center;
+}
+footer{
+    color:#fff;
+    background-color: red;
+    font-size: small;
+    font-weight: 400;
+    margin-top:50px;
+    padding:30px 30px 30px 30px;
+    text-align: center;
+}
+.table_icons{
+    width: 100% !important;
+    text-align: center;
+}
